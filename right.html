@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Frame 3</title>
+  <link rel="stylesheet" href="right.css">
+</head>
+<body>
+  <div class="img1">
+    <img src="try1.png" class="welcome">
+  </div>
+  
+  <div class="designcontainer1">
+  <div class="designimg1">
+  <img src="3.png" id="clickableImage" 
+  style="width: 650px; height: 325px;" alt="Click to play audio">
+
+  <audio id="audioPlayer" loop>
+      <source src="lofi audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+      document.getElementById('clickableImage')
+              .addEventListener('click', function() {
+      var audio = document.getElementById('audioPlayer');
+          audio.currentTime = 0; 
+          audio.play();
+      });
+  </script>
+  </div>
+  </div>
+
+  <div class="designcontainer2">
+    <div class="designimg2">
+    <img src="1.png" id="clickableImage2" 
+    style="width: 750px; height: 425px;" alt="Click to play audio">
+  
+    <audio id="audioPlayer2">
+        <source src="alarm audio.mp3" type="audio/mpeg">
+    </audio>
+  
+    <script>
+        document.getElementById('clickableImage2')
+                .addEventListener('click', function() {
+        var audio = document.getElementById('audioPlayer2');
+            audio.play();
+        });
+    </script>
+    </div>
+    </div>
+</body>
+</html>

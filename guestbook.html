@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frame 3 guestbook</title>
+  <link rel="stylesheet" href="right.css">
+</head>
+<body>
+  <div class="img4">
+    <img src="slambook.png" class="guestbook">
+  </div>
+  
+  <button class="submitbutton" onclick="showPopup()">Submit</button>
+  <div id="popup">
+    <p style="text-align: center;"><br>Submitted!<br> THANK YOU!</p>
+    <button id="closebutton" onclick="hidePopup()">Close</button>
+  </div>
+
+
+  <script>
+    function showPopup() {
+      document.getElementById("popup").style.display = "block";
+    }
+    
+    function hidePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+    </script>
+  
+
+<div class="slambook-container" id="testing">
+  <form class="slambook-form">
+    <fieldset class="slambook-fieldset-1">
+      <legend ><h3>SLAMBOOK</h3></legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required class="guessbook-text-input">
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <label for="nickname">Nickname:</label>
+      <input type="text" id="nickname" name="nickname" class="guessbook-text-input"><br><br>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" class="guessbook-text-input">
+      &nbsp; &nbsp; &nbsp; 
+      <label for="sex-male">Male</label>
+      <input type="radio" id="sex-male" name="sex" value="male">
+      <label for="sex-female">Female</label>
+      <input type="radio" id="sex-female" name="sex" value="female">
+      &nbsp; &nbsp;
+      <label> Favorite Filipino Dish: </label>
+      <select type="dropdown" id="education-dropdown"   class="guessbook-text-input">
+      <ul id="education-list" class="dropdown-content">
+        <option>Choose here</option>
+        <optgroup label="&nbsp;">
+          <option>ADOBO</option>
+          <option>SINIGANG</option>
+          <option>LUMPIANG SHANGHAI</option>
+          <option>BULALO</option>
+          <option>PAKSIW</option>
+          <option>SISIG</option>
+          <option>LECHON</option>
+      </ul>
+    </select>
+    
+      <legend><h3>Favorites</h3></legend>
+      <label >COLOR:</label>
+      <input type="color" class="guessbook-text-input"> &nbsp; &nbsp; &nbsp;
+      <label >SPORTS:</label>
+      <input type="text"  class="guessbook-text-input"> &nbsp; &nbsp; &nbsp;
+      <label >GAME:</label>
+      <input type="text" class="guessbook-text-input"><br><br>
+      <label >HOBBY: </label>
+      <input type="text" class="guessbook-text-input">
+   
+        <legend> <h3>Favorite PPOP Group:</h3></legend>
+        <table>
+            <tbody>
+        
+                <tr>
+                    
+                        <input type="checkbox"  value="option1"> <label>SB19</label> &nbsp;
+                        <input type="checkbox"  value="option2"> <label>BINI</label> &nbsp; 
+                        <input type="checkbox"  value="option3"> <label>ALAMAT</label> &nbsp; 
+                        <input type="checkbox"  value="option4"> <label">VXON</label> &nbsp; 
+                        <input type="checkbox"  value="option5"> <label">G22</label> &nbsp;
+                        <input type="checkbox"  value="option6"> <label>KAIA</label> &nbsp;
+                        <input type="checkbox"  value="option7"> <label>ECLYPSE</label> &nbsp;
+                        <input type="checkbox"  value="option8"> <label>CALISTA</label> &nbsp;
+                
+                </tr>
+            
+            </tbody>
+        </table>
+     
+        <legend> <h3>Share a memorable experience.</h3></legend>
+        <textarea placeholder="enter your message here." class="messagebox"></textarea>
+        </fieldset>
+  </form>
+</div>    
+
+  </body>
+</html>
+</body>
+</html>
+

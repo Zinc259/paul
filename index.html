@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paul's Website</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top {
+            height: 20%;
+            width: 100%;
+        }
+
+        .bottom {
+            height: 80%;
+            width: 100%;
+            display: flex;
+        }
+
+        .left {
+            height: 100%;
+            width: 20%;
+            
+        }
+
+        .right {
+            height: 100%;
+            width: 80%;
+        }    
+        
+    </style>
+</head>
+<frameset rows="20%, 80%" frameborder="0">
+    <frame src="top.html" marginwidth="0" marginheight="0" scrolling="no" name="topFrame">
+      <frameset cols="20%, 80%" frameborder="0"  >
+        <frame src="left.html" marginwidth="0" marginheight="0" scrolling="no" name="leftFrame">
+            <frame src="right.html" marginwidth="0" marginheight="0" scrolling="no" name="rightFrame">
+    </frameset>
+  </frameset>
+  </html>

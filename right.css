@@ -1,0 +1,506 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('try1.png'); /* Background image for the right frame */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.img1 {
+    content: url('home.png');
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    right: 100px;
+    animation: homeTransition 3s;
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+   
+.img2 {
+    content: url('profile.png');
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    animation: homeTransition 3s;
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+.img2divider {
+    
+    position: inherit;
+    display: flex;
+    width: 500px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2header {
+    position: relative;
+    color: #242424;
+    top: -550px;
+    left: -350px;
+    animation: homeTransition 3s;
+}
+
+.table1 {
+    position: relative;
+    top: -575px;
+    left: -350px;
+    animation: homeTransition 3s;
+    
+}
+
+
+.table1 , td, th {
+	border: none;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+td, th {
+    vertical-align: top;
+	padding: 5px;
+	width: 180px;
+	height: 100px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+    background-color: #AA94D9;
+    box-shadow: inset white;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+
+.cell{
+  background-color: rgb(224, 196, 153, 0.7);
+  box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.001);
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+
+.img4 {
+    content: url('slambook.png');
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    animation: homeTransition 3s;
+}
+
+.slambook-container {
+    position: relative;
+    display: flex;
+    animation: transitionIn 2s;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+
+.slambook-form {
+    position: absolute;
+    top: -455px;
+    left: -490px;
+    border: none;
+    background-color: none;
+}
+.slambook-form-2 {
+    position: absolute;
+    top: 100px;
+    left: 670px;
+}
+
+.slambook-fieldset-1 {
+    width: 700px;
+}
+.slambook-fieldset-2 {
+    width: 280px;
+    
+}
+.slambook-fieldset-3 {
+    width: 250px;
+    height: 175px;
+    
+}
+.slambook-fieldset-4 {
+    width: 250px;
+    height: 160px;
+}
+.messagebox {
+    width: 75%;
+    height: 100%;
+    resize:none;
+    background-color: rgb(255, 255, 255);
+}
+.guessbook-text-input{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#popup {
+    display: none;
+    position: absolute;
+    z-index: 101;
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    top: 30%;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 5px 5px rgba(0, 0, 0, 0.5)
+}
+.submitbutton {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    width: 50px;
+    height: 20px;
+    background-color: #f1cccc;
+    cursor: pointer;
+    left: 90px;
+    top: -35px;
+    animation: homeTransition 3s;
+    
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+#closebutton {
+    position: inherit;
+    top: 0;
+    right: 0;
+
+}
+
+.social-container1 {
+    position: relative;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.socialbutton1 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Indicate clickable element */
+  transition: transform 0.2s ease-in-out; 
+}
+.rectanglecontainer1 {
+    position: relative;
+    top: 75px;
+    left: -400px;
+    
+}
+.socialimg1 {
+    width: 125px; 
+    height: 125px; 
+    border-radius: 10px;
+    animation: homeTransition 3s;
+   
+}
+.socialimg1:hover {
+    
+  transform: scale(1.1); 
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+.social-container2 {
+    position: relative;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.socialbutton2 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Indicate clickable element */
+  transition: transform 0.2s ease-in-out; 
+}
+.rectanglecontainer2 {
+    position: relative;
+    top: 75px;
+    left: -200px;
+    
+}
+.socialimg2 {
+    width: 125px; 
+    height: 125px; 
+    border-radius: 10px;
+    animation: homeTransition 3s;
+   
+}
+.socialimg2:hover {
+    
+  transform: scale(1.1); 
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+.social-container3 {
+    position: relative;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.socialbutton3 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Indicate clickable element */
+  transition: transform 0.2s ease-in-out; 
+}
+.rectanglecontainer3 {
+    position: relative;
+    top: 75px;
+    left: 0px;
+    
+}
+.socialimg3 {
+    width: 125px; 
+    height: 125px; 
+    border-radius: 10px;
+    animation: homeTransition 3s;
+   
+}
+.socialimg3:hover {
+    
+  transform: scale(1.1); 
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+
+.social-container4 {
+    position: relative;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.socialbutton4 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Indicate clickable element */
+  transition: transform 0.2s ease-in-out; 
+}
+.rectanglecontainer4 {
+    position: relative;
+    top: 75px;
+    left: 200px;
+    
+}
+.socialimg4 {
+    width: 125px; 
+    height: 125px; 
+    border-radius: 10px;
+    animation: homeTransition 3s;
+   
+}
+.socialimg4:hover {
+    
+  transform: scale(1.1); 
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+
+.text-overlay1 {
+    font-family: 'MyCustomFont', sans-serif; /* Apply custom font to text overlay */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: white; /* Text color */
+
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Lofi Lifestyle Demo.ttf') format('truetype'); /* Specify the correct format */
+    /* You can add more src lines for different formats if necessary */
+    font-style: normal;
+}
+
+.designcontainer1 {
+    position: relative;
+    top: -600px;
+    left: 450px;
+}
+
+.designimg1 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    animation: homeTransition 2s;
+
+  }
+
+.designimg1:hover {   
+  transform: scale(1.1); 
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+.designcontainer2 {
+    position: relative;
+    top: -400px;
+    left: 375px;
+}
+
+.designimg2 {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    animation: homeTransition 2s;
+
+  }
+
+.designimg2:hover {   
+  transform: scale(1.1); 
+}
+
+@keyframes homeTransition {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}

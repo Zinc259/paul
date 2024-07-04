@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for left frame */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-image: url('try.png'); /* Background image for the left frame */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+
+}
+
+.img1 {
+    position: relative;
+    top: 20px; /* Position 50 pixels down from the top */
+    left: -125px; /* Position 20% from the left */
+    width: 0px; /* Set a width for the container */
+    height: 0px; /* Set a height for the container */
+    border-radius: 0px; /* Rounded corners for the container */
+    margin-bottom: 175px;
+
+}
+.img1 img {
+    width: 200px; /* Ensure the image fills the container */
+    height: 100px; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space for inline elements */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+.img1:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+.overlay1 {
+    position: relative; /* Position the overlay relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.img2 {
+    position: relative;
+    top: -50px; /* Position 50 pixels down from the top */
+    left: -125px; /* Position 20% from the left */
+    width: 0px; /* Set a width for the container */
+    height: 250px; /* Set a height for the container */
+    border-radius: 0px; /* Rounded corners for the container */
+    margin-bottom: 0px; /* Adjust spacing between containers */
+}
+.img2 img {
+    width: 150px; /* Ensure the image fills the container */
+    height: 75px; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space for inline elements */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+.img2:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}    
+
+.overlay2 {
+    position: relative; /* Position the overlay relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img3 {
+    position: relative;
+    top: -200px; /* Position 50 pixels down from the top */
+    left: -125px; /* Position 20% from the left */
+    width: 0px; /* Set a width for the container */
+    height: 250px; /* Set a height for the container */
+    border-radius: 0px; /* Rounded corners for the container */
+    margin-bottom: 0px; /* Adjust spacing between containers */
+}
+.img3 img {
+    width: 175px; /* Ensure the image fills the container */
+    height: 100px; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space for inline elements */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+.img3:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}    
+
+.overlay3 {
+    position: relative; /* Position the overlay relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.img4 {
+    position: relative;
+    top: -300px; /* Position 50 pixels down from the top */
+    left: -125px; /* Position 20% from the left */
+    width: 0px; /* Set a width for the container */
+    height: 250px; /* Set a height for the container */
+    border-radius: 0px; /* Rounded corners for the container */
+    margin-bottom: 0px; /* Adjust spacing between containers */
+}
+.img4 img {
+    width: 175px; /* Ensure the image fills the container */
+    height: 100px; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space for inline elements */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+.img4:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}    
+
+.overlay4 {
+    position: relative; /* Position the overlay relative to the container */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
